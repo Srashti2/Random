@@ -37,7 +37,7 @@ while turns>0:
           print(f"Your remaining turns are {turns}")
           while turns==0:
                print("Game Over")
-               print(chosen_word)     
+               print(f"Right Answer was {chosen_word}")     
                break
 
      print(display)
